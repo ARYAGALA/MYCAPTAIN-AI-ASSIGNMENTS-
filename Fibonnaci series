@@ -1,0 +1,33 @@
+#fibonacci series
+nterms = int(input("HOW MANY TERMS?"))
+#first two terms 
+n1,n2 = 0,1
+count = 0
+#check if number of terms is valid 
+if nterms<=0:
+    print("PLEASE ENTER A POSITIVE INTEGER.")
+    nterms = int(input("HOW MANY TERMS?"))
+    n1,n2 = 0,1
+    count = 0
+    print("The fibonacci series upto",nterms,"terms is:")
+    while count < nterms:
+        print (n1)
+        nth = n1+n2
+        #update of values 
+        n1=n2
+        n2=nth
+        count+=1
+
+
+#generate fibonacci series 
+else:
+    print("The fibonacci series upto",nterms,"terms is:")
+    while count < nterms:
+        print (n1)
+        nth = n1+n2
+        #update of values 
+        n1=n2
+        n2=nth
+        count+=1
+
+
