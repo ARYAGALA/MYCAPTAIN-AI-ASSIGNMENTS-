@@ -41,3 +41,4 @@ positive_num = [num for num in my_list2 if num >=0]
 print("Positive numbers in ",my_list2," are : ")
 print(positive_num)
    
+#further we can also sort the output in ascending or descending order as required by using the sort function and the loop functions
